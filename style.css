@@ -145,3 +145,61 @@ body
     padding-right: 357px;
 }
 /*main styles end*/
+/*main1 styles*/
+.main1-wrapper
+{
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center; 
+}
+.main1-img
+{
+    padding-top: 159px;
+    padding-left: 287px;
+}
+.main1-text
+{
+    padding-right: 375px;
+}
+.main1p
+{
+    width: 173px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.main1h1
+{
+    width: 324px;
+    height: 110px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    letter-spacing: 0.2px;
+    color: #252B42;
+}
+.main1p2
+{
+    width: 276px;
+    height: 28px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 28px;
+    letter-spacing: 0.1px;
+    color: #252B42;
+}
+.main1p3
+{
+    width: 301px;
+height: 25px;
+font-weight: 400;
+font-size: 18px;
+line-height: 25px;
+letter-spacing: 0.2px;
+color: #374754;
+}
+/*main1 styles end*/
