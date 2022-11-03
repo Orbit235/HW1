@@ -26,12 +26,13 @@ body
             justify-content: space-between;
             display: flex;
             flex-wrap: wrap;
-            align-items: flex-end;
+            align-items: center;
             }
                 .header-buttons-list
                 {
                 display: flex;
                 flex-wrap: wrap;
+                list-style-type: none;
                 }
                     .header-buttons-list:first-child
                     {
@@ -41,7 +42,7 @@ body
                         {
                             margin: 41px;
                             color: #FFFFFF;
-                        }
+                            }
                         .header-nav-link
                         {
                             color: #FFFFFF;
@@ -50,6 +51,7 @@ body
                         {
                             padding-right: 314px;
                         }
+                        
 .header-text
     {
     color: #FFFFFF;
