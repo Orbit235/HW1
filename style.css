@@ -66,10 +66,14 @@ transform: translate(-50%, -50%);
 }
 .header1
 {
-font-weight: 700;
-font-size: 85px;
-line-height: 84px; 
-}
+    font-family: 'Graphik';
+    font-style: normal;
+    font-size: 74px;
+    line-height: 84px;      
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-weight: bolder;
+    }
 .header-p
 {
 font-weight: 400;
@@ -104,7 +108,7 @@ box-shadow: 0 5px #666;
 }
 /*header styles end*/
 
-/*main styles*/
+/*section1 styles*/
 .main-wrapper
 {
     justify-content: space-between;
@@ -145,9 +149,9 @@ box-shadow: 0 5px #666;
     bottom: 9.81%;
     padding-right: 357px;
 }
-/*main styles end*/
+/*section1 styles end*/
 
-/*main1 styles*/
+/*section2 styles*/
 .main1-wrapper
 {
     justify-content: space-between;
@@ -231,27 +235,26 @@ padding-bottom: 36px;
     }
 .main1-button
 {
-font-family: 'Graphik';
-font-style: normal;
-font-weight: 400;
-font-size: 20px;
-line-height: 20px;
-letter-spacing: 0.2px;
-color: #FFFFFF;
-display: flex;
-flex-direction: column;
-align-items: center;
-padding: 19px 38px;
-gap: 10px;
-width: 172px;
-height: 58px;
-background: #2091F9;
-border-radius: 35px;
-
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 19px 38px;
+    gap: 10px;
+    width: 172px;
+    height: 58px;
+    background: #2091F9;
+    border-radius: 35px;
     }
-/*main1 styles end*/
+/*section2 styles end*/
 
-/*main2 styles*/
+/*section3 styles*/
 .main2-text
 {
     padding-top: 130px;
@@ -286,9 +289,9 @@ color: #374754;
     padding-right: 700px;
     padding-bottom: 193px;
      }
-/*main2 styles end*/
+/*section3 styles end*/
 
-/*main3 styles*/
+/*section4 styles*/
 .testimonials
 {
     font-family: 'Graphik';
@@ -336,4 +339,63 @@ color: #374754;
     letter-spacing: 0.1px;
     color: #FFFFFF;
         }
-/*main3 styles end*/
+/*section4 styles end*/
+
+/*footer styles*/
+footer
+{
+    background-color: #252B42;
+}
+.footer-p1
+{
+    padding-top: 110px;
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    text-align: center;
+    letter-spacing: 0.2px;   
+    color: #FFFFFF;
+}
+.footer-p2
+{
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+.footer-list
+{
+      
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 28px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0; 
+}
+.footer-list:first-child
+{
+    font-family: 'Graphik';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 28px;
+letter-spacing: 0.1px;
+color: #FFFFFF;
+flex: none;
+order: 0;
+flex-grow: 0;
+list-style-type: none;
+text-decoration: none;
+}
+/*footer styles ens*/
