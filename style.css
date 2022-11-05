@@ -60,6 +60,10 @@ column-gap: 5px;
 {
     background: none;
     }
+    .btn:hover
+    {
+        background-color: rgba(178, 184, 181, 0.192);
+}
 .header-text
 {
 color: #FFFFFF;
