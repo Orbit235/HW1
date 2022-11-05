@@ -27,7 +27,7 @@ background-size: cover;
 {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
-
+column-gap: 60px;
 align-items: center;
 margin-left: 311px;
 margin-right: 327px;
@@ -53,12 +53,15 @@ text-decoration: none;
    .social
    {
     display: grid;
-grid-template-columns: 1fr 1fr 1fr;
-column-gap: 5px;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-count: 3;
+    column-gap: 40px;
    }
 .btn
 {
+   
     background: none;
+    border: none;
     }
     .btn:hover
     {
