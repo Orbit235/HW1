@@ -1,0 +1,119 @@
+vioni@DESKTOP-1A44RMG MINGW64 /d/GITHUB/HW1 (dev)
+$ git status
+On branch dev
+Your branch is ahead of 'origin/dev' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   style.css
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+vioni@DESKTOP-1A44RMG MINGW64 /d/GITHUB/HW1 (dev)
+$ git add .
+
+vioni@DESKTOP-1A44RMG MINGW64 /d/GITHUB/HW1 (dev)
+$ git commit -m'social media icons fixed'
+[dev f719152] social media icons fixed
+ 1 file changed, 8 insertions(+), 9 deletions(-)
+
+vioni@DESKTOP-1A44RMG MINGW64 /d/GITHUB/HW1 (dev)
+$ git push
+Enumerating objects: 10, done.
+Counting objects: 100% (10/10), done.
+Delta compression using up to 6 threads
+Compressing objects: 100% (7/7), done.
+Writing objects: 100% (7/7), 3.10 KiB | 3.10 MiB/s, done.
+Total 7 (delta 3), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (3/3), completed with 1 local object.
+To github.com:Orbit235/HW1.git
+   72f0f2b..f719152  dev -> dev
+
+vioni@DESKTOP-1A44RMG MINGW64 /d/GITHUB/HW1 (dev)
+$ git log
+commit f7191526cefb9a121334e3a7b1f136570e9bde1e (HEAD -> dev, origin/dev)
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sun Nov 6 05:42:45 2022 +0300
+
+    social media icons fixed
+
+commit aa7e702c981d376d0e47a1422cb6ac877c3d0eb3
+Author: Orbit235 <v.ionichev@gmail.com>
+Date:   Sat Nov 5 17:56:54 2022 +0300
+
+    icons grid fixed
+
+commit 72f0f2b77d221a3837640053d63dd980e0539601
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sat Nov 5 13:49:15 2022 +0300
+
+    transition added to social networks icons
+
+commit 5be0f240c0174b11644877df7ef9e058ad42402c
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sat Nov 5 13:36:34 2022 +0300
+
+    social networks animation changed
+:...skipping...
+commit f7191526cefb9a121334e3a7b1f136570e9bde1e (HEAD -> dev, origin/dev)
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sun Nov 6 05:42:45 2022 +0300
+
+    social media icons fixed
+
+commit aa7e702c981d376d0e47a1422cb6ac877c3d0eb3
+Author: Orbit235 <v.ionichev@gmail.com>
+Date:   Sat Nov 5 17:56:54 2022 +0300
+
+    icons grid fixed
+
+commit 72f0f2b77d221a3837640053d63dd980e0539601
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sat Nov 5 13:49:15 2022 +0300
+
+    transition added to social networks icons
+
+commit 5be0f240c0174b11644877df7ef9e058ad42402c
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sat Nov 5 13:36:34 2022 +0300
+
+    social networks animation changed
+
+commit ec89fdfd238d57111918d1ee9ccb8da02b0c8355 (origin/main, origin/HEAD, main)
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Sat Nov 5 13:23:02 2022 +0300
+
+    HW2 done, social networks links added with icons, buttons animated
+
+commit 4eedd7e3e153b344fa7f38979276ae5b78919292
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Fri Nov 4 12:25:04 2022 +0300
+
+    #3, #4 fixed, footer added (styling in process), some minor issues fixed
+
+commit 6cb8a84baaa0010aa9df1e40158a8bb7822832a8
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Fri Nov 4 06:47:12 2022 +0300
+
+    #1 fixed, some more fixes and content added
+
+commit 595a9aac72eb408c52aef78bdf009e0bc0a93811
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Thu Nov 3 20:32:45 2022 +0300
+
+    Added more main section items
+
+commit e396e08629692614abc0da839dcfa36012cf990d
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Thu Nov 3 19:42:06 2022 +0300
+
+    #4 fixed
+
+commit c3264e6c0377c4c3a55ff27181b9c3ede962a69f
+Author: Orbit235 <115180016+Orbit235@users.noreply.github.com>
+Date:   Thu Nov 3 19:02:12 2022 +0300
+
+    #2 fixed
+:
